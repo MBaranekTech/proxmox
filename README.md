@@ -85,7 +85,7 @@ pihole setpassword
 ```
 On your home router set Primary DNS to the Pi-hole IP address or set DNS per device (On your PC/phone)
 
-
+<img width="998" height="447" alt="Snímek obrazovky 2025-07-17 153406" src="https://github.com/user-attachments/assets/3c5bab3c-b502-4ffd-a6f6-1fff0b90e76c" />
 
 
 If you are experiencing with not ip address on interneface in - LXC container <br>
