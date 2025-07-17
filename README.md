@@ -81,7 +81,7 @@ Follow the installation steps and access web admin url ```http://<your-container
 
 Change password for service. You can do it only via command.
 ```
-pihole -a -p
+pihole setpassword
 ```
 On your home router set Primary DNS to the Pi-hole IP address or set DNS per device (On your PC/phone)
 
