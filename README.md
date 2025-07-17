@@ -83,10 +83,16 @@ Change password for service. You can do it only via command.
 ```
 pihole -a -p
 ```
+On your home router set Primary DNS to the Pi-hole IP address or set DNS per device (On your PC/phone)
+
+
+
+
 If you are experiencing with not ip address on interneface in - LXC container <br>
 First step is set DHCP to LXC container from root console <br>
 ```
 pct set <CTID> -net0 name=eth0,bridge=vmbr0,ip=dhcp
 ```
 Reboot LXC container
+
 
